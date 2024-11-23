@@ -1,0 +1,169 @@
+#header {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#hero {
+  position: relative;
+  height: 100vh; 
+}
+
+.carousel-item {
+  height: 100vh; 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.carousel-item img {
+  display: none; 
+}
+
+.carousel-container {
+  height: 100%; /* Make sure content fills the section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.btn-book-now, .btn-contact {
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.btn-book-now {
+  background-color: #ff7f50;
+  color: white;
+}
+
+.btn-contact {
+  background-color: #008CBA;
+  color: white;
+}
+
+.btn-book-now:hover, .btn-contact:hover {
+  background-color: #ff4500;
+  color: white;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: yellow !important;
+}
+
+#header h1{
+  font-family: sans-serif;
+  color: white !important;
+}
+
+h2{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#header h3{
+  font-family: sans-serif;
+}
+
+#hero h3{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+footer {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Rooms Section */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Footer */
+#footer {
+    background: #35322d;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffb03b;
+    position: relative;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #46423b;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #ffb03b;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
